@@ -1,3 +1,6 @@
+/*.js
+!.**rc.js
+
 # Logs
 logs
 *.log
