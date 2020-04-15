@@ -14,11 +14,10 @@ module.exports = {
         }
       }
     ],
+    '@semantic-release/npm',
     ["@semantic-release/git", {
-      "assets": ["dist/**/*.{js}", "package.json"],
       "message": ":bookmark: ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }],
     // '@semantic-release/github',
-    '@semantic-release/npm'
   ]
 }
