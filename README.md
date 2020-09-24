@@ -13,7 +13,7 @@ Add Mautic tracking code to your Gatsby site.
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-mauric`,
+      resolve: `gatsby-plugin-mautic`,
       options: {
         // The URL where mautic is installed
         hostUrl: "YOUR_HOST_URL",
